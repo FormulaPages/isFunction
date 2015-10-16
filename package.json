@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A function to check if a value is a function.",
   "main": "index.js",
+  "jsnext:main": "index.es6",
   "scripts": {
     "build": "babel ISFUNCTION.es6 -m umd --out-file ISFUNCTION.js",
     "test": "node test"
