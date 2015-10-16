@@ -1,7 +1,7 @@
 var test = require('tape');
 var isfunc = require('./ISFUNCTION');
 
-test('Function check', (t) => {
+test('Function check', function(t) {
   t.plan(5);
   t.equal( isfunc(setInterval), true); 
   t.equal( isfunc(function() {}), true); 
